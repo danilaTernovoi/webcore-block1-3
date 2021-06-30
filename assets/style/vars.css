@@ -1,0 +1,36 @@
+:root {
+  /* цвета */
+  --red: #ff3e79;
+  --black: #1b1c21;
+  --grey: #7e7e82;
+  --green: #74bba8;
+  --blue: #0b7fab;
+  /*  */
+  --circle-icon--size: 40px;
+  --circle-icon--color: var(--red);
+  /* медиа */
+  --screen--sm: 320px;
+  --screen--md: 768px;
+  --screen--lg: 1120px;
+  /* параметры разделительной черты для групп иконок в шапке */
+  --separator--background-color: #eaeaea;
+  --separator--width: 2px;
+  --separator--height: 32px;
+  /*  */
+  --upper-menu__icons-group--gutter: 16px;
+  /* параметры текста */
+  --text-title--font-family: ttlakes-bold;
+  --text-title--font-size: 2.8rem;
+  --text-title--color: var(--black);
+
+  --text-main--font-family: ttlakes-regular;
+  --text-main--font-size: 1.4rem;
+  --text-main--color: var(--text-title--color);
+  --text-main--line-height: 1.8rem;
+  /*  */
+  --section--offset-left: 16px;
+  /* длительности переходов */
+  --transition-duration--short: 0.15s;
+  --transition-duration--medium: 0.25s;
+  --transition-duration--long: 0.5s;
+}

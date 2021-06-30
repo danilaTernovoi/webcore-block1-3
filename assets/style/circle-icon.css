@@ -1,0 +1,56 @@
+.circle-icon {
+  width: var(--circle-icon--size);
+  min-width: var(--circle-icon--size);
+  height: var(--circle-icon--size);
+  background-color: var(--circle-icon--color);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: none;
+  border-radius: 50%;
+
+  transition: box-shadow var(--transition-duration--medium);
+}
+
+@keyframes failure {
+  0% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0) '';
+  }
+}
+
+.circle-icon:hover {
+  box-shadow: 0 0 0 10px var(--red), 0 0 0 5px black;
+  animation: failure var(--transition-duration--medium) ease-out;
+}
+
+.circle-icon--name--burger {
+  background-image: url(../img/burger.svg);
+}
+
+.circle-icon--name--repair {
+  background-image: url(../img/repair.svg);
+}
+
+.circle-icon--name--status {
+  background-image: url(../img/status.svg);
+}
+
+.circle-icon--name--phone {
+  background-image: url(../img/phone.svg);
+}
+
+.circle-icon--name--chat {
+  background-image: url(../img/chat.svg);
+}
+
+.circle-icon--name--auth {
+  background-image: url(../img/auth.svg);
+}

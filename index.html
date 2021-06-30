@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/index.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <title>Блок 1.4</title>
+  </head>
+  <body>
+    <header class="upper-menu">
+      <div class="container-center upper-menu__inner">
+        <button class="circle-icon circle-icon--name--burger upper-menu__menu-icon"></button>
+
+        <div class="upper-menu__logo-wrapper">
+          <img src="assets/img/logo.png" alt="" class="upper-menu__logo" />
+        </div>
+
+        <div class="upper-menu__icons-group-1 upper-menu__icons-group">
+          <button class="interactive circle-icon circle-icon--name--phone"></button>
+          <button class="interactive circle-icon circle-icon--name--chat"></button>
+          <button class="interactive circle-icon circle-icon--name--auth"></button>
+        </div>
+
+        <div class="upper-menu__repair-status-wrapper upper-menu__icons-group">
+          <button class="interactive circle-icon circle-icon--name--repair"></button>
+          <button class="interactive circle-icon circle-icon--name--status"></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="services">
+        <div class="services__top container-fluid">
+          <h1 class="services__title">Услуги и сервисы</h1>
+          <div class="services__action-group">
+            <button class="action-services interactive" tabindex="0">
+              <span class="action-services__text">Оставить заявку</span>
+              <div class="circle-icon circle-icon--name--repair"></div>
+            </button>
+
+            <button class="action-services interactive" tabindex="0">
+              <span class="action-services__text">Статус ремонта</span>
+              <div class="circle-icon circle-icon--name--status"></div>
+            </button>
+          </div>
+        </div>
+        <nav class="services__tab-list-wrapper container-center">
+          <ul class="services__tab-list">
+            <li class="services__tab-item services__tab-item--current tab-item">
+              <a draggable="false" class="tab-item__link interactive" href="#">
+                Ремонтируемые бренды
+              </a>
+            </li>
+            <li class="services__tab-item tab-item">
+              <a draggable="false" class="tab-item__link interactive" href="#"
+                >Ремонтируемые устройства</a
+              >
+            </li>
+            <li class="services__tab-item tab-item">
+              <a draggable="false" class="tab-item__link interactive" href="#">Цены на услуги</a>
+            </li>
+            <li class="services__tab-item tab-item">
+              <a draggable="false" class="tab-item__link interactive" href="#"
+                >Адреса сервисных центров</a
+              >
+            </li>
+            <li class="services__tab-item tab-item">
+              <a draggable="false" class="tab-item__link interactive" href="#">Специальные цены</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="services__content">
+          <div class="services__description container-center">
+            <p class="services__text-value">
+              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
+              можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              <br /><br />
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
+              подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
+              обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+            </p>
+            <button class="services__read-more interactive">
+              <img src="assets/img/read-more.svg" alt="читать далее" />
+              <span>Читать далее</span>
+            </button>
+          </div>
+          <picture class="services__image">
+            <source srcset="assets/img/shedule-desktop.jpg" media="(min-width: 1120px)" />
+            <source srcset="assets/img/shedule-table.jpg" media="(min-width: 340px)" />
+            <source srcset="assets/img/shedule-mobile.jpg" media="(max-width: 3390px)" />
+            <img class="services__image-wrapper" src="" alt="oops" />
+          </picture>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
